@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #6f6f6f;
+  background: #f0f0f0;
+  font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 24px 0 12px;
+  text-shadow: 1px 1px 0px white;
+  color: #4f4f4f;
+  background: transparent;
+  font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  border: none;
+}
+
+a {
+  outline: none;
+  color: #4f4f4f;
+}
+
+
+::selection {
+  text-shadow: none;
+  color: white;
+  background: #4F4F4F;
+}
+
+
+#header {
+  background: #1f1f1f url(images/background-header.png) repeat center top;
+}
+
+#header-inner {
+  height: 510px;
+  position: relative;
+  background: transparent url(images/background-header-inner.png) no-repeat center bottom;
+}
+
+#header-top {
+  height: 80px;
+  background: transparent url(images/background-header-top.png) repeat-x left top;
+}
+
+#header-display {
+  position: relative;
+  width: 980px;
+  height: 390px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+#header-display-slogan {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 550px;
+  height: 320px;
+  padding: 20px 0 0;
+  color: #6f6f6f;
+  font-family: "Lucida Grande";
+  font-weight: bold;
+}
+
+#header-display-slogan h1 {
+  -webkit-mask-image: -webkit-gradient(linear, left top,left bottom, from(rgba(0, 0, 0, 1)), to(rgba(1, 1, 1, .2)));
+  text-shadow: 0px 0px 4px black;
+  font-size: 48px;
+  z-index: 2;
+  color: white;
+}
+
+#header-display-slogan p {
+  -webkit-mask-image: -webkit-gradient(linear, left top,left bottom, from(rgba(0, 0, 0, 1)), to(rgba(1, 1, 1, .2)));
+  text-shadow: 0px 0px 4px black;
+  font-size: 24px;
+  z-index: 2;
+  color: white;
+}
+
+#header-display-logo {
+  position: absolute;
+  top: 50px;
+  right: -60px;
+  width: 490px;
+  height: 340px;
+  padding: 10px;
+}
+
+
+#main {
+  width: 980px;
+  margin: 0 auto;
+  clear: both;
+}
+
+#content {
+  width: 640px;
+  float: left;
+  padding: 40px 0 40px;
+}
+
+#footer {
+  width: 640px;
+  float: left;
+  padding: 40px 0 40px;
+  background: transparent url(images/background-footer.png) repeat-x left top;
+}
+
+#footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
