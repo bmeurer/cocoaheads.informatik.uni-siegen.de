@@ -1,3 +1,7 @@
+/***********
+ * GENERAL *
+ ***********/
+
 body {
   margin: 0px;
   padding: 0px;
@@ -32,13 +36,22 @@ a {
   color: #4f4f4f;
 }
 
-
 ::selection {
   text-shadow: none;
   color: white;
   background: #4F4F4F;
 }
 
+::-moz-selection {
+  text-shadow: none;
+  color: white;
+  background: #4F4F4F;
+}
+
+
+/**********
+ * HEADER *
+ **********/
 
 #header {
   background: #1f1f1f url(images/background-header.png) repeat center top;
@@ -100,6 +113,10 @@ a {
   padding: 10px;
 }
 
+
+/********
+ * MAIN *
+ ********/
 
 #main {
   width: 980px;
