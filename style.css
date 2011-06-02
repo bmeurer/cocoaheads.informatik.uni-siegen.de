@@ -8,7 +8,7 @@ body {
   color: #6f6f6f;
   background: #f0f0f0;
   font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 p {
@@ -29,6 +29,8 @@ p {
 
 img {
   border: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -76,38 +78,52 @@ a {
   z-index: 1;
 }
 
+#header-display-inner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 980px;
+  height: 390px;
+  background: transparent;
+}
+
 #header-display-slogan {
   position: absolute;
   top: 40px;
   left: 0px;
-  width: 550px;
+  width: 450px;
   height: 320px;
-  padding: 20px 0 0;
+  padding: 0px 0 0;
   color: #6f6f6f;
-  font-family: "Lucida Grande";
-  font-weight: bold;
 }
 
 #header-display-slogan h1 {
   -webkit-mask-image: -webkit-gradient(linear, left top,left bottom, from(rgba(0, 0, 0, 1)), to(rgba(1, 1, 1, .2)));
   text-shadow: 0px 0px 4px black;
-  font-size: 48px;
+  font-family: "Lucida Grande";
+  font-weight: bold;
+  font-size: 28px;
   z-index: 2;
   color: white;
+  letter-spacing: 1px;
+  margin-top: 0;
 }
 
 #header-display-slogan p {
-  -webkit-mask-image: -webkit-gradient(linear, left top,left bottom, from(rgba(0, 0, 0, 1)), to(rgba(1, 1, 1, .2)));
+  -webkit-mask-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(black), to(rgba(1, 1, 1, 0.496094)));
+  color: #bbb;
   text-shadow: 0px 0px 4px black;
-  font-size: 24px;
+  font-family: "Lucida Grande";
+  font-weight: bold;
+  font-size: 12px;
   z-index: 2;
-  color: white;
 }
 
 #header-display-logo {
+  background: none!important;
   position: absolute;
-  top: 50px;
-  right: -60px;
+  top: 30px;
+  right: -10px;
   width: 490px;
   height: 340px;
   padding: 10px;
@@ -127,7 +143,7 @@ a {
 #content {
   width: 640px;
   float: left;
-  padding: 40px 0 40px;
+  padding: 20px 0 40px;
 }
 
 #footer {
