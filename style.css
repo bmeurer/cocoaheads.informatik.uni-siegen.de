@@ -42,6 +42,23 @@ a {
   color: #4f4f4f;
 }
 
+.button {
+  padding: 4px 0 4px 10px;
+  background: transparent;
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 #6f6f6f;
+  letter-spacing: .03em;
+  background: url(images/background-button.png) no-repeat left top;
+}
+
+.button span {
+  padding: 4px 10px 4px 0;
+  background: transparent url(images/background-button-span.png) no-repeat right top;
+}
+
 ::selection {
   text-shadow: none;
   color: white;
