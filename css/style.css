@@ -51,12 +51,12 @@ a {
   text-transform: uppercase;
   text-shadow: 1px 1px 0 #6f6f6f;
   letter-spacing: .03em;
-  background: url(images/background-button.png) no-repeat left top;
+  background: url(/images/background-button.png) no-repeat left top;
 }
 
 .button span {
   padding: 4px 10px 4px 0;
-  background: transparent url(images/background-button-span.png) no-repeat right top;
+  background: transparent url(/images/background-button-span.png) no-repeat right top;
 }
 
 ::selection {
@@ -77,18 +77,18 @@ a {
  **********/
 
 #header {
-  background: #1f1f1f url(images/background-header.png) repeat center top;
+  background: #1f1f1f url(/images/background-header.png) repeat center top;
 }
 
 #header-inner {
   height: 510px;
   position: relative;
-  background: transparent url(images/background-header-inner.png) no-repeat center bottom;
+  background: transparent url(/images/background-header-inner.png) no-repeat center bottom;
 }
 
 #header-top {
   height: 80px;
-  background: transparent url(images/background-header-top.png) repeat-x left top;
+  background: transparent url(/images/background-header-top.png) repeat-x left top;
 }
 
 #header-top ul {
@@ -193,7 +193,7 @@ a {
   width: 640px;
   float: left;
   padding: 40px 0 40px;
-  background: transparent url(images/background-footer.png) repeat-x left top;
+  background: transparent url(/images/background-footer.png) repeat-x left top;
 }
 
 #footer img {

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en-US">
+
+<head>
+  <meta http-equiv="Content-Language" content="en" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>{{ site.title }}</title>
+
+  <!-- Site Author -->
+  <meta name="author" content="{{ site.author }}" />
+
+  <!-- Site Description -->
+  <meta name="description" content="{{ site.description }}" />
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+
+  <!-- Google Site Verification -->
+  <meta name="google-site-verification" content="BV3ZXiR6RvLKKgpYVfekgflZzEFXe1XRuKo3mQ1212Y" />
+
+  <!-- Fav Icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div id="header-inner">
+      <div id="header-top">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="http://cocoaheads.org/resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <div id="header-display">
+        <div id="header-display-inner">
+          <div id="header-display-slogan">
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.description }}</p>
+          </div>
+          <div id="header-display-logo">
+            <img src="/images/logo.png" alt="CocoaHeads logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="content">
+      {{ content }}
+    </div>
+
+    <div id="footer">
+      <a href="http://www.apple.com/mac/" target="_blank"><img src="/images/mwmac.png" /></a>
+    </div>
+  </div>
+  {% include ga.html %}
+</body>
+
+</html>

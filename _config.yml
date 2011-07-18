@@ -1,0 +1,11 @@
+markdown: rdiscount
+permalink: pretty
+url: http://cocoaheads.informatik.uni-siegen.de
+title: cocoaheads siegen
+description: iphone + mac developers
+author: Benedikt Meurer
+
+exclude:
+  - Rakefile
+  - README.markdown
+
