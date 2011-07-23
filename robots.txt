@@ -1,5 +1,5 @@
-Sitemap: http://cocoaheads.informatik.uni-siegen.de/sitemap.xml
-
 User-agent: *
 Allow: /
+
+Sitemap: http://cocoaheads.informatik.uni-siegen.de/sitemap.xml
 
