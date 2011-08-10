@@ -15,7 +15,7 @@ task :compress => [:compile] do
 end
 
 desc 'Run the jekyll dev server'
-task :server => [:compress] do
+task :server => [:compile] do
 	system "jekyll --server --auto"
 end
 
